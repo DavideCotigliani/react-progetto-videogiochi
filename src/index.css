@@ -1,13 +1,7 @@
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+body {
+  background-color: #1e1e2f !important; /* forza il colore sopra Bootstrap */
+  margin: 0;
+}
+.container-fluid{
+  background-color:#166534;
 }

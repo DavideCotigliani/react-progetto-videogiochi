@@ -9,9 +9,9 @@ const HomePage = () => {
     }, []);
 
   return (
-    <div className="container-fluid bg-secondary-subtle">
+    <div className="container-fluid">
             
-    <div className="container mt-4" >
+    <div className="container mt-3" >
       <h1 className="text-center mb-4"> Catalogo dei Videogiochi</h1>
 
       {items.length === 0 ? (
