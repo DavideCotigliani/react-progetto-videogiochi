@@ -22,10 +22,10 @@ const DetailProduct = () => {
       <div className="card shadow-lg">
               <div className="row g-0">
                   
-          {/* immagini
+          {/* immagini */}
           <div className="col-md-4 d-flex align-items-center justify-content-center bg-light" style={{ minHeight: "250px" }}>
-           <img src={item.image_url} alt={item.title} className="img-fluid mb-3" />
-          </div> */}
+           <img src={item.image_url} className="img-fluid mb-3" />
+          </div>
 
           <div className="col-md-8">
             <div className="card-body">
